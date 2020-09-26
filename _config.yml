@@ -21,7 +21,7 @@ url: 'protocol://domain'
 
 author: Patrick Schüle                  # change to your full name
 
-avatar: /assets/images/bio-photo.jpg   # support internet resources
+avatar: /assets/img/sample/bio-photo.jpg   # support internet resources
 
 github:
   username: Checkso             # change to your github username
