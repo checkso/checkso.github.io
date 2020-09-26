@@ -19,7 +19,7 @@ We experienced the following issue when we were trying to add any Azure AD user.
 ID cannot be specified for Azure Analysis Service role member: user@domain.com   
 {:.notice--danger}
 
-![](/assets/images/BlogRLSError2.jpg)
+![](/assets/img/BlogRLSError2.jpg)
 
 The solution was to switch to **Integrated workspace** and to deploy the model again.  
 [https://docs.microsoft.com/en-us/analysis-services/tabular-models/workspace-database-ssas-tabular](https://docs.microsoft.com/en-us/analysis-services/tabular-models/workspace-database-ssas-tabular "https://docs.microsoft.com/en-us/analysis-services/tabular-models/workspace-database-ssas-tabular")
