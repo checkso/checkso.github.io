@@ -21,7 +21,7 @@ After allowing 3rd Party Apps, we were able to create the "Incoming Webhook", bu
 
 > Connectors have been disabled for client - SkypeSpaces. Please contact your administrator
 
-![Error](/assets/images/error.png)
+![Error](/assets/img/error.png)
 
 This can be related to three things:
 
@@ -31,11 +31,11 @@ If you use the EWS Allow List you need to add the agent string “__SkypeSpaces/
 
 In our case we didn't use the EWS Allow List
 
-![](/assets/images/Get-OrgConfig1.png)
+![](/assets/img/Get-OrgConfig1.png)
 
 **2. Allow sideloading of external apps / Custom Apps**
 
-![](/assets/images/customapps-1.png)
+![](/assets/img/customapps-1.png)
 
 Within the Org-wide app settings "Allow interaction with custom apps" must be enabeld.
 
@@ -47,8 +47,8 @@ ConnectorsEnabled was set to **False** in our tenant. This can be set to **True*
 
     Set-OrganizationConfig -ConnectorsEnabled $True
 
-![](/assets/images/Get-OrgConfig.png)
+![](/assets/img/Get-OrgConfig.png)
 
 After the change and waiting for the next day the Incoming Webhook was able to be added easily:
 
-![](/assets/images/Webhook.png)
+![](/assets/img/Webhook.png)
