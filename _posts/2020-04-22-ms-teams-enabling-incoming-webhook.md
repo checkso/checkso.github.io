@@ -1,17 +1,9 @@
-```yaml
 ---
 title: MS Teams - Enabling Incoming Webhook
 date: 2020-04-22 22:00:00 +0000
-categories:
-- Teams
-tags:
-- incoming webhook
-- 3rd party apps
-- teams
-- microsoft
-
+categories:[Teams]
+tags:[incoming webhook, 3rd party apps, teams, microsoft]
 ---
-```
 
 In our tenant we have all 3rd Party Apps within Microsoft Teams **disabled**. We wanted to use the "Incoming Webhooks" App, but couldn't add it as it was not shown.
 
@@ -37,7 +29,7 @@ In our case we didn't use the EWS Allow List
 
 ![](/assets/img/Get-OrgConfig1.png)
 
- ## Allow sideloading of external apps / Custom Apps
+## Allow sideloading of external apps / Custom Apps
 
 ![](/assets/img/customapps-1.png)
 
@@ -49,7 +41,8 @@ Also this was already enabled in our case.
 
 ConnectorsEnabled was set to **False** in our tenant. This can be set to **True** easily:
 
-    Set-OrganizationConfig -ConnectorsEnabled $True
+```powershell 
+Set-OrganizationConfig -ConnectorsEnabled $True
 
 ![](/assets/img/Get-OrgConfig.png)
 
