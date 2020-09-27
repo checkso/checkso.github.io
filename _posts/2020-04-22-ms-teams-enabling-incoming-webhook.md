@@ -1,14 +1,18 @@
+```yaml
 ---
 title: MS Teams - Enabling Incoming Webhook
 date: 2020-04-22 22:00:00 +0000
 categories:
 - Teams
 tags:
-- Incoming Webhook
-- 3rd Party Apps
-- Teams
+- incoming webhook
+- 3rd party apps
+- teams
+- microsoft
 
 ---
+```
+
 In our tenant we have all 3rd Party Apps within Microsoft Teams **disabled**. We wanted to use the "Incoming Webhooks" App, but couldn't add it as it was not shown.
 
 After some discussions with the Microsoft Support, we recevied the following information:
@@ -25,7 +29,7 @@ After allowing 3rd Party Apps, we were able to create the "Incoming Webhook", bu
 
 This can be related to three things:
 
-**1. EWS Allow List**
+## EWS Allow List
 
 If you use the EWS Allow List you need to add the agent string “__SkypeSpaces/1.0a$* SkypeSpaces/*__”.
 
@@ -33,7 +37,7 @@ In our case we didn't use the EWS Allow List
 
 ![](/assets/img/Get-OrgConfig1.png)
 
-**2. Allow sideloading of external apps / Custom Apps**
+ ## Allow sideloading of external apps / Custom Apps
 
 ![](/assets/img/customapps-1.png)
 
@@ -41,7 +45,7 @@ Within the Org-wide app settings "Allow interaction with custom apps" must be en
 
 Also this was already enabled in our case.
 
-**3. Organization Configuration - ConnectorsEnabled**
+## Organization Configuration - ConnectorsEnabled
 
 ConnectorsEnabled was set to **False** in our tenant. This can be set to **True** easily:
 
