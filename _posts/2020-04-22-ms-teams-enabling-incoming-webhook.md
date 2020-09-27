@@ -3,6 +3,7 @@ title: MS Teams - Enabling Incoming Webhook
 author: Patrick
 date: 2020-04-22 22:00:00 +0000
 categories: [Teams]
+tags: [incoming webhook, 3rd party apps, teams, microsoft]
 ---
 
 In our tenant we have all 3rd Party Apps within Microsoft Teams **disabled**. We wanted to use the "Incoming Webhooks" App, but couldn't add it as it was not shown.
