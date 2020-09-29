@@ -22,6 +22,10 @@
   icon: 'fas fa-beer'
   url: 'https://www.buymeacoffee.com/pscons'
 -
+  icon: 'fas fa-patreon'
+  url: 'https://www.patreon.com/user?u=42953751'
+-
+
 # Uncomment and complete the url below to enable more contact options
 # -
 #   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
