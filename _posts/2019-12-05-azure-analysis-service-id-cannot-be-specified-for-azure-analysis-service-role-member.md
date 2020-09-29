@@ -3,7 +3,7 @@ title: 'Azure Analysis Service: ID cannot be specified for Azure Analysis Servic
   role member: '
 date: 2019-12-05T23:00:00.000+00:00
 categories: [Blog, Microsoft]
-tags: [Error, Azure Analysis Service, Azure, SQL]
+tags: [error, azure analysis service, azure, sql]
 
 ---
 After trying to configure Role Level Security as described in the following article:
