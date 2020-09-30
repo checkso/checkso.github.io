@@ -14,10 +14,10 @@
   type: email
   icon: 'fas fa-envelope'
   noblank: true            # open link in current tab
--
-  type: rss
-  icon: 'fas fa-rss'
-  noblank: true
+# -
+#  type: rss
+#  icon: 'fas fa-rss'
+#  noblank: true
 -
   icon: 'fas fa-beer'
   url: 'https://www.buymeacoffee.com/pscons'
