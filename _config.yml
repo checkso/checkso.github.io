@@ -10,11 +10,11 @@
 
 title: PSCons                          # the main title
 
-tagline: My small blog about everything 
+tagline: Small blog about everything 
   related to Microsoft products and IT.  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  My small blog about everything 
+  Small blog about everything 
   related to Microsoft products and IT.
 
 # Replace with the website url, e.g. 'https://username.github.io'
