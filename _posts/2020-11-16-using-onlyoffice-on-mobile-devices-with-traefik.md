@@ -7,7 +7,7 @@ tags: [traefik, onlyoffice, nextcloud, docker, docker-compose]
 ---
 
 Since Ascensio decided to remove the support for mobile editing of documents using the Nextcloud app or browser, the community created a fork of OnlyOffice which brings this feature back.
-
+ 
 A big thanks goes to Alexander Hofbauer for building this container 
 https://github.com/aleho/onlyoffice-ce-docker-license
 
