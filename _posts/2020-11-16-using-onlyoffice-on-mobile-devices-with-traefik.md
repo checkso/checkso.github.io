@@ -2,7 +2,7 @@
 title: Using OnlyOffice on mobile devices with traefik
 author: Patrick
 date: 2020-11-16 15:00:00 +0000
-categories: [Blog, Traefik]
+categories: [Blog, Homeserver]
 tags: [traefik, onlyoffice, nextcloud, docker, docker-compose]
 ---
 
