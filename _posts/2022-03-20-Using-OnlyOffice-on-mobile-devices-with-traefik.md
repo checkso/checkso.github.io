@@ -13,7 +13,7 @@ As I am using traefik as reverse proxy I wanted to show my docker-compose file f
 
 My Docker-Compose File
 
-```
+
 version: '3.3'
 
 services:
@@ -63,4 +63,3 @@ networks:
       name: traefik_proxy
   default:
     driver: bridge
-```
