@@ -7,12 +7,13 @@ tags: [nextcloud, onlyoffice, docker, traefik]
 
 Since Ascensio decided to remove the support for mobile editing of documents using the Nextcloud app or browser, the community created a fork of OnlyOffice which brings this feature back.
 
-A big thanks goes to Alexander Hofbauer for building this container: link to github
+A big thanks goes to Alexander Hofbauer for building this container: [link to github](https://github.com/aleho/onlyoffice-ce-docker-license)
 
 As I am using traefik as reverse proxy I wanted to show my docker-compose file for getting OnlyOffice and Traefik working.
 
 My Docker-Compose File
----
+
+```
 version: '3.3'
 
 services:
@@ -62,3 +63,4 @@ networks:
       name: traefik_proxy
   default:
     driver: bridge
+```
