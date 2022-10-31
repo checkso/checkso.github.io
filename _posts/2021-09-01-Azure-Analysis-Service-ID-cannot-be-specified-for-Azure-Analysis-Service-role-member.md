@@ -1,5 +1,5 @@
 ---
-title: Azure Analysis Service: ID cannot be specified for Azure Analysis Service role member
+title: Azure Analysis Service ID cannot be specified for Azure Analysis Service role member
 categories: []
 tags: []
 ---
