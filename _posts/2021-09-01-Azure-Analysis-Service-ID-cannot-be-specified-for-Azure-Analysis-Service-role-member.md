@@ -1,6 +1,5 @@
 ---
 title: Azure Analysis Service: ID cannot be specified for Azure Analysis Service role member
-author: Patrick
 date: 2021-09-01 09:00:00 +0000
 categories: [Azure Analysis Service, PowerBi, SSAS]
 tags: [analysis service]
