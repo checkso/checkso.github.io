@@ -1,7 +1,7 @@
 ---
 title: Azure Analysis Service: ID cannot be specified for Azure Analysis Service role member
-categories: [Azure Analysis Service, PowerBi, SSAS]
-tags: [analysis service]
+categories: []
+tags: []
 ---
 
 After trying to configure Role Level Security as described in the following article:
