@@ -23,7 +23,7 @@ timezone: Europe/Berlin
 
 title: PSCons                          # the main title
 
-tagline: IT Blog   # it will display as the sub-title
+tagline: Small blog about everything related to Microsoft products and IT.   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   Small blog about everything related to Microsoft products and IT.
