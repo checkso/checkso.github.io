@@ -1,6 +1,6 @@
 ---
 title: Azure Analysis Service: ID cannot be specified for Azure Analysis Service role member
-date: 2021-09-01 01:00:00 +0000
+date: 2021-09-01
 categories: [Azure Analysis Service, PowerBi, SSAS]
 tags: [analysis service]     # TAG names should always be lowercase
 ---
