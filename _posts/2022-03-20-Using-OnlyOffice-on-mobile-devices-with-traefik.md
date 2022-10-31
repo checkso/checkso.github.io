@@ -13,7 +13,7 @@ As I am using traefik as reverse proxy I wanted to show my docker-compose file f
 
 My Docker-Compose File
 
-```
+```yaml
 version: '3.3'
 
 services:
