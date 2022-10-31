@@ -1,5 +1,5 @@
 ---
-title:Using OnlyOffice on mobile devices with traefik
+title: Using OnlyOffice on mobile devices with traefik
 date: 2022-03-20
 categories: [Nextcloud, OnlyOffice, ]
 tags: [nextcloud, onlyoffice, docker, traefik]    
