@@ -1,8 +1,8 @@
 ---
 title: Azure Analysis Service: ID cannot be specified for Azure Analysis Service role member
-date: 2021-09-01
+date: 2021-09-01 00:00:00
 categories: [Azure Analysis Service, PowerBi, SSAS]
-tags: [analysis service, ssas, powerbi]     # TAG names should always be lowercase
+tags: [analysis service]     # TAG names should always be lowercase
 ---
 
 After trying to configure Role Level Security as described in the following article:
