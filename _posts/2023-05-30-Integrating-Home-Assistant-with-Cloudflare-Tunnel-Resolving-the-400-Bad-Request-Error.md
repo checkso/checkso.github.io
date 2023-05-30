@@ -1,8 +1,8 @@
 ---
 title: Integrating Home Assistant with Cloudflare Tunnel - Resolving the 400 Bad Request Error
 date: 2023-05-30
-categories: [Home Assistant, CloudFlare]
-tags: [cloudflare]
+categories: [Home Assistant, CloudFlare, Troubleshooting] 
+tags: [cloudflare, Home Assistant, Smart Home, Security]
 ---
 
 ## The Problem: "400: Bad Request" Error
