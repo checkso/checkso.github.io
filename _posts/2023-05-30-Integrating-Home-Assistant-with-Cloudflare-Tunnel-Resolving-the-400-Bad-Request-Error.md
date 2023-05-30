@@ -21,15 +21,16 @@ To resolve the "400: Bad Request" error and successfully set up Cloudflare Tunne
 - Open the configuration.yaml file using a text editor.
 - Locate the http section in the configuration file.
 - Add or modify the following line under the http section:
+
 ```
 use_x_forwarded_for: true
 ```
 
 2. Add the internal IP of the proxy under "trusted_proxies":
 
-Again, open the configuration.yaml file in a text editor.
-Locate the http section in the configuration file.
-Add or modify the following line under the http section:
+- Again, open the configuration.yaml file in a text editor.
+- Locate the http section in the configuration file.
+- Add or modify the following line under the http section:
 
 ```
 trusted_proxies:
@@ -39,7 +40,7 @@ trusted_proxies:
 Replace <internal_IP_of_proxy> with the actual internal IP address of your proxy server.
 Save the changes and restart your Home Assistant instance.
 
-Why these adjustments work
+## Why these adjustments work
 Enabling the "use_x_forwarded_for" setting allows Home Assistant to correctly identify the client's IP address when accessed through a proxy. This step ensures that the Cloudflare Tunnel can establish a proper connection.
 
 Adding the internal IP of the proxy under "trusted_proxies" tells Home Assistant to trust requests coming from that IP address. By explicitly defining the proxy as a trusted source, Home Assistant allows the Cloudflare Tunnel to forward the requests successfully.
