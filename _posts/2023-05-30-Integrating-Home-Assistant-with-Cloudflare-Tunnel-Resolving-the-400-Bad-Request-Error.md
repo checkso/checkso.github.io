@@ -40,6 +40,8 @@ trusted_proxies:
 Replace <internal_IP_of_proxy> with the actual internal IP address of your proxy server.
 Save the changes and restart your Home Assistant instance.
 
+![Desktop View](/assets/conf.yaml.png){: .normal }
+
 ## Why these adjustments work
 Enabling the "use_x_forwarded_for" setting allows Home Assistant to correctly identify the client's IP address when accessed through a proxy. This step ensures that the Cloudflare Tunnel can establish a proper connection.
 
