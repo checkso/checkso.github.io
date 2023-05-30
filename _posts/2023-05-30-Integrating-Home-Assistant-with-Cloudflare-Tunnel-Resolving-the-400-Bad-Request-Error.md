@@ -5,8 +5,6 @@ categories: [Home Assistant, CloudFlare]
 tags: [cloudflare]
 ---
 
-# Integrating Home Assistant with Cloudflare Tunnel: Resolving the "400: Bad Request" Error
-
 ## The Problem: "400: Bad Request" Error
 
 When attempting to set up Cloudflare Tunnel with Home Assistant, you may encounter the "400: Bad Request" error message. 
