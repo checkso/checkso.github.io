@@ -17,7 +17,6 @@ But there's more to me than tech! When I'm not immersed in the digital realm, yo
 
 In a rapidly evolving digital world, my mission is to help businesses navigate their technology journey with clarity and confidence. Through my work, I hope to illuminate the path to digital success and make the complex world of tech a little more accessible for everyone.
 
-Thank you for visiting my site. Let's embrace the tech adventure together!
+If you're interested in Microsoft training or my consulting work, please feel free to reach out via LinkedIn or mail (on the left side). I look forward to partnering with you on your journey to digital excellence.
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+Thank you for visiting my site. Let's embrace the tech adventure together!
