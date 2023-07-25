@@ -13,7 +13,7 @@ Ever since I first discovered the magic of computing, I've been captivated by ho
 
 This blog is my little corner of the web where I share my insights, experience, and advice on Microsoft technologies. Whether you're a tech newbie or a seasoned pro, I hope you find the information here valuable and enlightening.
 
-But there's more to me than tech! When I'm not immersed in the digital realm, you'll likely find me out in the great outdoors. Hiking and mountain biking through the scenic landscapes around Munich are my favorite ways to recharge and find inspiration.
+But there’s more to me than tech! When I’m not immersed in the digital realm, you’ll likely find me out in the great outdoors. Hiking and mountain biking through the scenic landscapes around Munich are my favorite ways to recharge and find inspiration. Additionally, my family and I are avid adventurers who love to go on camping trips with our trusty VW T6 Camper Van. Exploring new places and creating unforgettable memories together is an integral part of our lives.
 
 In a rapidly evolving digital world, my mission is to help businesses navigate their technology journey with clarity and confidence. Through my work, I hope to illuminate the path to digital success and make the complex world of tech a little more accessible for everyone.
 
