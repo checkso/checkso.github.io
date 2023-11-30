@@ -1,6 +1,6 @@
 ---
 title: Resolving "Cannot find pattern in the input file" in SQL Management Studio with the Right Import Wizard
-date: 2023-30-11
+date: 2023-11-30
 categories: [SQL Management Studio, Troubleshooting] 
 tags: [SQL Server, CSV Import, Error Resolution]
 ---
