@@ -6,7 +6,6 @@ order: 5
 
 *Patrick Schüle*
 
-Blumenstr. 47
 85774 Unterföhring
 
 *Contact*
