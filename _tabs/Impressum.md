@@ -4,12 +4,16 @@ icon: fas fa-info-circle
 order: 5
 ---
 
-*Patrick Schüle*
+# Impressum
 
-Blumenstr. 47
+PSCons - Patrick Schüle
+Blumenstr 47
 85774 Unterföhring
 
-*Contact*
+# Kontakt
+Telefon: +49 (0) 15678 749837
+E-Mail: blog [at] pscons.de
 
-- Phone: +49 176 105 40 499
-- Mail: blog [at] pscons.de
+# Umsatzsteuer-ID
+Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:
+DE368615190
