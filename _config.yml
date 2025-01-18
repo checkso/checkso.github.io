@@ -1,5 +1,6 @@
 # The Site Configuration
-# Import the themetheme: jekyll-theme-chirpy
+# Import the theme
+theme: jekyll-theme-chirpy
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
@@ -29,7 +30,7 @@ github:
 # twitter:
 #  username: twitter_username # change to your Twitter username
 
- social:
+social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
    name: Patrick
