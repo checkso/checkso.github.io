@@ -1,11 +1,17 @@
-**How to Sideload YouTube Kids on an Amazon Kindle Kids Tablet**  
+---
+title: How to Sideload Apps on an Amazon Kindle Kids Tablet
+date: 2024-02-17
+categories: [Amazon Kindle, App Sideloading, Parental Controls, Tech Hacks for Families]
+tags: [YouTube Kids Installation, Kindle Kids Tablet Sideloading, Amazon Fire Tablet]
+---
 
-Amazon’s Kindle Kids Tablet offers a secure environment for children, but some apps like YouTube Kids aren’t preloaded. Here’s a parent-friendly guide to sideloading YT Kids using Google Play Store and a third-party launcher.  
+
+Amazon’s Kindle Kids Tablet offers a secure environment for children, but some apps like YouTube Kids aren’t preloaded. Here’s a parent-friendly guide to sideloading YT Kids (and in fact any other app) using Google Play Store and a third-party launcher.  
 
 ---
 
 ### **What You’ll Need**  
-- The Kindle Kids Tablet  
+- The Kindle Kids Tablet 
 - A computer with [ADB installed](https://www.xda-developers.com/install-adb-windows-macos-linux/)  
 - A USB cable  
 
