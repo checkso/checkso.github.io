@@ -25,9 +25,12 @@ Amazon’s Kindle Kids Tablet offers a secure environment for children, but some
 ---
 
 ### **Step 2: Install the App Launcher (Parent Profile)**  
-1. Open the **Amazon Appstore** and search for **“App Launcher”** (look for a yellow star on a blue background).  
-2. Install the app, then go to **Settings > Profiles & Family Library > Child Profile**.  
-3. Under **“Allowed Apps”**, enable **App Launcher** for the child profile.  
+1. Open the **Amazon Appstore** and search for **“App Launcher”** (yellow star on a blue background).  
+2. Install it. To confirm the package name (e.g., `rocks.seufert.applauncher`), connect the tablet to your computer and run:  
+   ```bash  
+   adb shell pm list packages -3  
+   ```  
+   *This lists all third-party apps installed.*  
 
 ---
 
@@ -40,31 +43,42 @@ Amazon’s Kindle Kids Tablet offers a secure environment for children, but some
 
 ### **Step 4: Run ADB Commands (Child Profile)**  
 1. **Switch to the Child Profile** on the tablet.  
-2. On your computer, open a command prompt/terminal and run:  
+2. **Find the Child Profile User ID** (usually `10`):  
    ```bash  
-   adb shell  
+   adb shell pm list users  
    ```  
-3. Execute these commands to enable critical Google services for YT Kids:  
+   *Look for the child profile’s ID (e.g., `UserInfo{10:Kids...}`).*  
+3. On your computer, run these commands to link Google services to the child profile (**replace `10` if needed**):  
    ```bash  
-   cmd package install-existing com.google.android.apps.youtube.kids  
-   cmd package install-existing com.google.android.gms  
-   cmd package install-existing com.android.vending  
-   cmd package install-existing com.google.android.gsf  
-   cmd package install-existing com.google.android.gsf.login  
+   adb shell cmd package install-existing --user 10 com.google.android.apps.youtube.kids  
+   adb shell cmd package install-existing --user 10 com.google.android.gms  
+   adb shell cmd package install-existing --user 10 com.android.vending  
+   adb shell cmd package install-existing --user 10 com.google.android.gsf  
+   adb shell cmd package install-existing --user 10 com.google.android.gsf.login  
    ```  
 
 ---
 
-### **Step 5: Launch YouTube Kids (Child Profile)**  
-1. On the tablet, open the **App Launcher** from the child profile’s app list.  
-2. Select **YouTube Kids**—it should now launch without issues!  
+### **Step 5: Allow App Launcher & Add YT Kids (Parent Profile)**  
+1. **Switch back to the Parent Profile** and open **Settings > Parent Dashboard**.  
+2. Go to **Child Profile > Allowed Apps** and ensure **App Launcher** is enabled.  
 
 ---
 
-### **Why This Works**  
-The ADB commands link Google Play Services (installed in the parent profile) to the child profile, while the App Launcher lets kids access approved apps. This method keeps the tablet secure while adding trusted content.  
+### **Step 6: Launch YouTube Kids (Child Profile)**  
+1. **Switch to the Child Profile**.
+2. **Open the App Launcher** on the parent profile, then:  
+   - Tap the **Settings icon** (gear symbol) in the App Launcher.  
+   - Select **YouTube Kids** from the list of installed apps.  
+   - Save changes.   
+3. The App is now visible with one click.
 
-**Pro Tip**: Reboot the tablet if YT Kids crashes initially. For stricter controls, use Amazon’s parental settings to limit screen time or block unintended apps.  
+---
+
+### **Troubleshooting Tips**  
+- If YT Kids crashes, reboot the tablet.  
+- Use `pm list packages -3` to verify installed apps.  
+- Double-check user IDs with `pm list users` if commands fail.  
 
 --- 
 
